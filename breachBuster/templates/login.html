@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Login Box */
+.login-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+/* Heading */
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Form Fields */
+form p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    color: white;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffeb3b;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffd700;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.register-link a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Login</button>
+            </form>
+            <p class="register-link">Not registered? <a href="/register/">Create an account</a></p>
+        </div>
+    </div>
+</body>
+</html>

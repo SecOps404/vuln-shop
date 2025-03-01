@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Register Box */
+        .register-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            padding: 50px 60px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 420px;
+        }
+
+        /* Heading */
+        h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        /* Form Fields */
+        form p {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            width: 100%;
+            color: white;
+        }
+
+        form input {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+            transition: 0.3s;
+        }
+
+        form input:focus {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        form label {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        /* Button */
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #ffeb3b;
+            color: black;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #ffd700;
+        }
+
+        /* Login Link */
+        .login-link {
+            margin-top: 15px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .login-link a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2>Register</h2>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Register</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+        </div>
+    </div>
+</body>
+</html>

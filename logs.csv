@@ -1,0 +1,142 @@
+THREAD_ID,QUERY_TIME,SQL_TEXT,DATABASE,ROWS_AFFECTED,ROWS_SENT,ROWS_EXAMINED,IP
+419,1.826972,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+419,0.158151,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+419,0.057757,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+419,0.037943,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+419,0.150298,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+419,0.049156,,simple_shop,0,0,0,127.0.0.1
+421,1.558035,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+421,0.049139,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+421,0.033372,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+421,0.03085,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+421,0.137234,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+421,0.343679,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%phoe%'",simple_shop,0,0,8,127.0.0.1
+421,0.048545,,simple_shop,0,0,0,127.0.0.1
+423,1.015256,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+423,0.061129,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+423,0.045553,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+423,0.061554,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+423,0.211655,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+423,0.100065,,simple_shop,0,0,0,127.0.0.1
+425,1.116328,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+425,0.056602,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+425,0.033337,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+425,0.040381,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+425,0.140625,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+425,0.341287,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%phone%'",simple_shop,0,4,8,127.0.0.1
+425,0.082203,,simple_shop,0,0,0,127.0.0.1
+427,1.092562,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+427,0.047409,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+427,0.043609,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+427,0.033595,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+427,0.133604,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+427,0.072145,,simple_shop,0,0,0,127.0.0.1
+429,1.215025,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+429,0.145263,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+429,0.07525,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+429,0.036635,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+429,0.154186,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+429,0.59784,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%laptop%'",simple_shop,0,4,8,127.0.0.1
+429,0.082215,,simple_shop,0,0,0,127.0.0.1
+431,1.643339,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+431,0.116029,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+431,0.084441,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+431,0.086504,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+431,0.179861,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+431,0.087678,,simple_shop,0,0,0,127.0.0.1
+433,1.012936,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+433,0.049697,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+433,0.042053,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+433,0.033391,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+433,0.136463,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+433,0.364875,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%' -- %'",simple_shop,0,8,8,127.0.0.1
+433,0.079924,,simple_shop,0,0,0,127.0.0.1
+435,1.204866,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+435,0.049396,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+435,0.037154,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+435,0.030775,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+435,0.144204,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+435,0.084936,,simple_shop,0,0,0,127.0.0.1
+437,1.298293,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+437,0.060494,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+437,0.037929,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+437,0.0321,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+437,0.153886,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+437,0.348726,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%' OR 1=1 -- %'",simple_shop,0,8,8,127.0.0.1
+437,0.047332,,simple_shop,0,0,0,127.0.0.1
+439,0.872349,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+439,0.061762,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+439,0.045895,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+439,0.045416,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+439,0.143209,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+439,0.085043,,simple_shop,0,0,0,127.0.0.1
+441,1.551926,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+441,0.062652,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+441,0.045477,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+441,0.039569,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+441,0.155221,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+441,5.583362,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%' UNION SELECT username, email, password FROM auth_user -- %'",simple_shop,0,10,20,127.0.0.1
+441,0.099767,,simple_shop,0,0,0,127.0.0.1
+443,1.24273,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+443,0.060809,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+443,0.044697,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+443,0.044742,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+443,0.156918,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+443,0.085414,,simple_shop,0,0,0,127.0.0.1
+48,1.107066,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+48,0.167241,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+48,0.075793,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+48,0.482511,"SELECT VERSION(),
+                       @@sql_mode,
+                       @@default_storage_engine,
+                       @@sql_auto_is_null,
+                       @@lower_case_table_names,
+                       CONVERT_TZ('2001-01-01 01:00:00', 'UTC', 'UTC') IS NOT NULL",simple_shop,0,1,1,127.0.0.1
+48,0.08499,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+48,3.160416,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+48,0.117746,,simple_shop,0,0,0,127.0.0.1
+50,0.160758,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+50,0.050159,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+50,0.045595,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+50,0.04538,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+50,0.18563,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+50,0.096755,,simple_shop,0,0,0,127.0.0.1
+52,0.226836,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+52,0.066889,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+52,0.046717,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+52,0.301274,"SELECT VERSION(),
+                       @@sql_mode,
+                       @@default_storage_engine,
+                       @@sql_auto_is_null,
+                       @@lower_case_table_names,
+                       CONVERT_TZ('2001-01-01 01:00:00', 'UTC', 'UTC') IS NOT NULL",simple_shop,0,1,1,127.0.0.1
+52,0.058422,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+52,0.200794,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+52,0.104262,,simple_shop,0,0,0,127.0.0.1
+54,0.158571,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+54,0.04517,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+54,0.03406,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+54,0.030039,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+54,0.174329,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+54,1.912906,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%phone%'",simple_shop,0,4,8,127.0.0.1
+54,0.101829,,simple_shop,0,0,0,127.0.0.1
+56,0.148626,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+56,0.053384,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+56,0.043427,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+56,0.03828,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+56,0.214892,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+56,0.363165,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%phone%'",simple_shop,0,4,8,127.0.0.1
+56,0.098194,,simple_shop,0,0,0,127.0.0.1
+58,0.155038,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+58,0.062915,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+58,0.047694,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+58,0.039924,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+58,0.225654,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+58,0.0684,,simple_shop,0,0,0,127.0.0.1
+60,0.162122,SET NAMES utf8,simple_shop,0,0,0,127.0.0.1
+60,0.053326,set autocommit=0,simple_shop,0,0,0,127.0.0.1
+60,0.04279,set autocommit=1,simple_shop,0,0,0,127.0.0.1
+60,0.03801,SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED,simple_shop,0,0,0,127.0.0.1
+60,0.201183,SELECT THREAD_ID FROM performance_schema.threads WHERE PROCESSLIST_ID = CONNECTION_ID(),simple_shop,0,1,1,127.0.0.1
+60,0.249773,"SELECT name, path, price FROM breachBuster_product WHERE name LIKE '%This is arsal%'",simple_shop,0,0,8,127.0.0.1
+60,0.057641,,simple_shop,0,0,0,127.0.0.1
